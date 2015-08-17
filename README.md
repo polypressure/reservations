@@ -7,7 +7,11 @@
    `rvm install ruby-2.2.2`
 1. Run `bundle install` as usual to install gems.
 1. Run `rake db:migrate` as usual to create the database.
-1. Run `rake db:seed` to populate the `tables` table (awkwardly-named) in the database, containing information about the restaurant's tables. (Modify `db/seeds.rb` as needed to match the table configuration in your hypothetical restaurant.)
+1. Run `rake db:seed` to populate the (awkwardly-named) `tables` table in the database, containing information about the restaurant's tables. You can first modify `db/seeds.rb` as needed to match the table configuration in your restaurant. Out of the box, it creates the following tables in the restaurant:
+  * 3 tables that can seat 2 people.
+  * 5 tables that can seat 4 people.
+  * 3 tables that can seat 6 people.
+  * 2 tables that can seat 8 people.
 1. Run `rake db:test:prepare`, then run the test suite with `rake test` as usual.
 1. Start up the app and server as usual with `rake server`.
 1. http://localhost:3000
