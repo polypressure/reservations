@@ -1,13 +1,13 @@
-# Reservations Screening Problem Application
+# Coding Exercise: Restaurant Reservations Application
 
 ## Setup
 
 1. Clone the repo as usual.
-1. Install the Ruby version. I've used RVM and Ruby 2.2.2, which is specified in the .ruby-version file. If you're using RVM, run:
+1. Install the Ruby version, Ruby 2.2.2, which is specified in the .ruby-version file. If you're using RVM, run:
    `rvm install ruby-2.2.2`
 1. Run `bundle install` as usual to install gems.
 1. Run `rake db:migrate` as usual to create the database.
-1. Run `rake db:seed` to populate the `tables` in the database, containing about the restaurants tables. (Modify `db/seeds.rb` as needed to match the table configuration in your hypothetical restaurant.)
+1. Run `rake db:seed` to populate the `tables` table (awkwardly-named) in the database, containing information about the restaurant's tables. (Modify `db/seeds.rb` as needed to match the table configuration in your hypothetical restaurant.)
 1. Run the test suite with `rake test` as usual.
 1. Start up the app and server as usual with `rake server`.
 1. http://localhost:3000
