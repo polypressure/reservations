@@ -1,0 +1,17 @@
+roger:
+  first_name: Roger
+  last_name: Federer
+  email: roger@federer.com
+  phone: 305-123-1234
+
+rafa:
+  first_name: Rafael
+  last_name: Rafael
+  email: rafael@nadal.com
+  phone: 305-456-7890
+
+hakeem:
+  first_name: Hakeem
+  last_name: Olajuwon
+  email: hakeem@rockets.com
+  phone: 773-555-1234

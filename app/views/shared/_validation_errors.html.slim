@@ -1,0 +1,7 @@
+- if errors.any?
+  #error_explanation
+    h5
+      | Please correct the following problems:
+    ul
+      - errors.full_messages.each do |msg|
+        li = msg

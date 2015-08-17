@@ -1,0 +1,8 @@
+en:
+  time:
+    formats:
+      day_date_time: '%a, %b %e, %l:%M %p'
+      time_day_date: '%l:%M %p - %a %b %e'
+      fullday_date_time: '%A, %B %e, %l:%M %p'
+      mdy_time: '%b %e, %Y, %l:%M %p'
+      with_zone: '%b %e, %Y, %l:%M %p %Z'

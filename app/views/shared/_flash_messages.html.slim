@@ -1,0 +1,4 @@
+- flash.each do |type, message|
+  div(data-alert class="alert-box #{zurb_class_for(type)} radius")
+    = message
+    a(href="#" class="close") &times;

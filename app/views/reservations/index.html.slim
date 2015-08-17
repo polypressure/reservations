@@ -1,0 +1,38 @@
+.row.header
+  .small-12.columns
+  
+.row.reservation-form
+  .small-12.columns
+    = render 'reservations/form'
+    
+.row
+  .small-12.columns
+
+    h4 Upcoming Reservations
+
+    
+    table#reservation-list
+      thead
+        tr
+          th(width="185px") Date/Time
+          th(width="90px") Party Size
+          th(width="150px") First Name
+          th(width="150px") Last Name
+          th(width="150px") Phone
+          th(width="250px") Email
+          
+      tbody
+        - if @reservations.empty?
+          tr
+            td colspan=6 No reservations have been booked.
+        - @reservations.each do |reservation|
+          tr.reservation
+            td.datetime = l(reservation.datetime, format: :day_date_time)
+            td.party_size = reservation.party_size
+            td.first_name = reservation.customer.first_name
+            td.last_name = reservation.customer.last_name
+            td.phone
+              a(href="tel:#{reservation.customer.phone}") = reservation.customer.phone.phony_formatted
+            td.email 
+              a(href="mailto:#{reservation.customer.email}") = reservation.customer.email
+      tfoot

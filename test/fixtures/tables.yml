@@ -1,0 +1,19 @@
+<% 3.times do |i| %>
+table_<%= i+1 %>_seating_2:
+  seats: 2
+<% end %>
+
+<% 5.times do |i| %>
+table_<%= i+1 %>_seating_4:
+  seats: 4
+<% end %>
+
+<% 3.times do |i| %>
+table_<%= i+1 %>_seating_6:
+  seats: 6
+<% end %>
+
+<% 2.times do |i| %>
+table_<%= i+1 %>_seating_8:
+  seats: 8
+<% end %>

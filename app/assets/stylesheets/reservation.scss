@@ -1,0 +1,57 @@
+body {
+  background: #ddd;
+}
+
+.header {
+  margin-top: 2rem;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.time-info {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.reservation-form {
+  margin-bottom: 2rem;
+  input {
+    box-shadow: none;
+  }
+  button {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+}
+
+#reservation-list {
+  thead {
+    background: #707070;
+    th {
+      color: #fff;
+    }
+  }
+  margin-bottom: 5rem;
+}
+
+#error_explanation {
+  h5 {
+    background: #a00000;
+    color: #fff;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+  background: #ccbbbb;
+  color: #000;
+  ul {
+    padding: 0.5rem 1rem 1rem 1rem;
+    font-size: 0.8rem;
+    color: #000;
+  }
+}
+
+.alert-box {
+  font-size: 0.85rem;
+}
