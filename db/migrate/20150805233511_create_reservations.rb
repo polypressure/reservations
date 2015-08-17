@@ -7,6 +7,8 @@ class CreateReservations < ActiveRecord::Migration
       t.integer :customer_id, null: false
 
       t.timestamps null: false
+
+      t.index [:table_id, :datetime]
     end
 
     add_foreign_key :reservations, :table_id

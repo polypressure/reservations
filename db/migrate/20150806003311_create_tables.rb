@@ -4,6 +4,7 @@ class CreateTables < ActiveRecord::Migration
       t.integer :seats, null: false, index: true
 
       t.timestamps null: false
+
     end
   end
 end

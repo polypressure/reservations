@@ -7,6 +7,8 @@ class CreateCustomers < ActiveRecord::Migration
       t.string :email
 
       t.timestamps null: false
+
+      t.index [:last_name, :first_name]
     end
   end
 end

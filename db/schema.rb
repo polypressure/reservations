@@ -22,14 +22,18 @@ ActiveRecord::Schema.define(version: 20150806220743) do
     t.datetime "updated_at", null: false
   end
 
+  add_index "customers", ["last_name", "first_name"], name: "index_customers_on_last_name_and_first_name"
+
   create_table "reservations", force: :cascade do |t|
-    t.datetime "datetime",   null: false
+    t.datetime "datetime",    null: false
     t.integer  "party_size",  null: false
     t.integer  "table_id",    null: false
     t.integer  "customer_id", null: false
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
+
+  add_index "reservations", ["table_id", "datetime"], name: "index_reservations_on_table_id_and_datetime"
 
   create_table "tables", force: :cascade do |t|
     t.integer  "seats",      null: false
