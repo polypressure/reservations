@@ -1,23 +1,23 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.3'
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.10'
 
 # Organizes business logic, keeps it out of controllers and models:
-gem 'outbacker'
+gem 'outbacker', '~> 0.1.2'
 
 # ERB alternative:
-gem 'slim'
+gem 'slim', '~> 3.0.6'
 
 # ZURB CSS framework:
-gem 'foundation-rails'
+gem 'foundation-rails', '~> 5.5.2.1'
 
 # Validation/normalization
-gem 'phony_rails'
-gem 'email_validator'
+gem 'phony_rails', '~> 0.12.9'
+gem 'email_validator', '~> 1.6.0'
 
 # Set server-side timezone automatically based on browser timezone:
-gem 'browser-timezone-rails'
+gem 'browser-timezone-rails', '~> 0.0.8'
 
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -39,12 +39,12 @@ group :development, :test do
 end
 
 group :test do
-  gem 'minitest-rails-capybara'
-  gem 'minitest-reporters'
-  gem 'mocha'
-  gem 'site_prism'
-  gem 'tedium'
+  gem 'minitest-rails-capybara', '~> 2.1.1'
+  gem 'minitest-reporters', '~> 1.0.19'
+  gem 'mocha', '~> 1.1.0'
+  gem 'site_prism', '~> 2.7'
+  gem 'tedium', '~> 0.0.5'
 
   # Run a single minitest case:
-  gem 'm'
+  gem 'm', '~> 1.3.4'
 end
