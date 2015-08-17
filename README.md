@@ -15,7 +15,9 @@
 1. Run `rake db:test:prepare`, then run the test suite with `rake test` as usual.
 1. Start up the app and server as usual with `rake server`.
 1. [http://localhost:3000](http://localhost:3000)
-1. It should look something like this: <img src=http://i.imgur.com/fh5yymJ.png>
+1. It should look something like this: 
+
+<img src=http://i.imgur.com/fh5yymJ.png>
 
 ## Other Notes
 
