@@ -1,5 +1,10 @@
 # Coding Exercise: Restaurant Reservations Application
 
+[![Build Status](https://travis-ci.org/polypressure/reservations.svg?branch=master)](https://travis-ci.org/polypressure/reservations)
+[![Test Coverage](https://codeclimate.com/github/polypressure/reservations/badges/coverage.svg)](https://codeclimate.com/github/polypressure/reservations/coverage)
+[![Code Climate](https://codeclimate.com/github/polypressure/reservations/badges/gpa.svg)](https://codeclimate.com/github/polypressure/reservations)
+
+
 ## Setup
 
 1. Clone the repo as usual: `git clone https://github.com/polypressure/reservations.git`
@@ -15,7 +20,7 @@
 1. Run `rake db:test:prepare`, then run the test suite with `rake test` as usual.
 1. Start up the app and server as usual with `rake server`.
 1. [http://localhost:3000](http://localhost:3000)
-1. It should look something like this: 
+1. It should look something like this:
 
 <img src=http://i.imgur.com/fh5yymJ.png>
 
