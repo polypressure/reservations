@@ -7,6 +7,8 @@
 # the models, helping to keep models and their tests lean
 # and focused on persistence, queries, etc.
 #
+# See https://github.com/polypressure/formant for more details.
+#
 class ReservationForm < Formant::FormObject
 
   #
