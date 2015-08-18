@@ -5,6 +5,8 @@ gem 'sqlite3', '~> 1.3.10'
 
 # Organizes business logic, keeps it out of controllers and models:
 gem 'outbacker', '~> 0.1.2'
+# Form objects, also provides parsing/normalization of input data:
+gem 'formant', '~> 0.1.2'
 
 # ERB alternative:
 gem 'slim', '~> 3.0.6'
