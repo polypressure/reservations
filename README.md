@@ -26,7 +26,7 @@
 
 ## Other Notes
 
-The code for this app might be overkill for a screening/coding exercise, but I've simply built it on top of sa base app template that I've used on multiple projects for some time. Here are some notes on this base app and the corresponding approach:
+The code for this app might be overkill for a screening/coding exercise, but I've simply built it on top of a base app template that I've used on multiple projects for some time. Here are some notes on this base app and the corresponding approach:
 
 * I keep business logic out of controllers and models, moving it to plain-old Ruby objects with the help of https://github.com/polypressure/outbacker. This is a microlibrary that I've been using privately for a while now, and which I just recently published as a gem. There's a single business-logic/domain object in this app: [app/domain/reservation_book.rb](https://github.com/polypressure/reservations/blob/master/app/domain/reservation_book.rb).
 * I move validation (as well as input parsing/normalization logic) into form objects, again to keep models and their tests lean and focused on persistence. I use the form object library in https://github.com/polypressure/formant, which is another microlibrary that I've been using privately, and which I also just now published as a gem. There's a single form object in this app: [app/forms/reservation_form.rb](https://github.com/polypressure/reservations/blob/master/app/forms/reservation_form.rb).
