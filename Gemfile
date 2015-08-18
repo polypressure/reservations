@@ -44,6 +44,7 @@ group :test do
   gem 'mocha', '~> 1.1.0'
   gem 'site_prism', '~> 2.7'
   gem 'tedium', '~> 0.0.5'
+  gem 'codeclimate-test-reporter', '~> 0.4'
 
   # Run a single minitest case:
   gem 'm', '~> 1.3.4'
