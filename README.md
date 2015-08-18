@@ -22,7 +22,7 @@
 1. [http://localhost:3000](http://localhost:3000)
 1. It should look something like this:
 
-<img src=http://i.imgur.com/PGgY2LN.png>
+<img src=http://i.imgur.com/71Dthoz.png>
 
 ## Other Notes
 
